@@ -1,28 +1,36 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-<meta charset="utf-8">
-  <title>Gabe Jones | Main</title>
   <head>
-  <link rel="stylesheet" href="css/main.css">
+    <meta charset="utf-8">
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <title>Gabe Jones</title>
+
+    <link rel="stylesheet" href="bower_components/normalize.css/normalize.css">
+
+    <link rel="stylesheet" href="dist/styles/main.css">
+
+    <script src="bower_components/modernizr/modernizr.js"></script>
   </head>
-  <body id='total' class='main-body'>
+  <body>
     <header>
+      <h2>Gabriel Jones</h2>
     </header>
-    <h1 class='myname'>Gabe Jones</h1>
-    <div class='howtocontact'>
-      <p>You can find me on the following...</p>
-    </div>
-    <div class='page-links'>
-      <nav id='navigation' class=''>
-        <ul class='navlinks'>
-          <a href="index.html">Main</a>
-          <a href="about.html">About</a>
-          <a href="contact.html">Contact</a>
-      </ul>
-      </nav>
-    </div>
-  </body>
-  <!links to social media>
+      <h1 class='myname'>Gabe Jones</h1>
+      <div class='howtocontact'>
+        <p>You can find me on the following...</p>
+      </div>
+      <div class='page-links'>
+        <nav id='navigation' class=''>
+          <ul class='navlinks'>
+            <a href="index.html">Main</a>
+            <a href="about.html">About</a>
+            <a href="contact.html">Contact</a>
+            <a href="http://www.badview08.wordpress.com">Blog</a>
+        </ul>
+        </nav>
+      </div>
   <footer>
     <div class="social">
       <a href="https://twitter.com/badview08">
@@ -32,4 +40,15 @@
       <a href="https://www.facebook.com/gjones1025"> <img src='img/fbimgbw.png' alt='Facebook logo' width="30" height="30"></a>
     </div>
   </footer>
+  <!-- Third Party Scripts -->
+  <script src="bower_components/jquery/dist/jquery.js"></script>
+  <script src="bower_components/underscore/underscore.js"></script>
+  <script src="bower_components/handlebars/handlebars.js"></script>
+
+  <!-- Application Scripts -->
+  <script src="dist/scripts/templates.js"></script>
+  <script src="scripts/token.js"></script>
+  <script src="scripts/main.js"></script>
+
+</body>
 </html>

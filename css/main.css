@@ -1,0 +1,55 @@
+
+body {
+  background-color: lightgrey;
+  background-repeat: no-repeat;
+}
+
+/*Background Images for pages*/
+.main-body {
+  background-image: url("../img/drill.png");
+  background-size: 100%;
+}
+.contact-body {
+  background-image: url("../img/oldcar.jpg");
+  background-size: 100%;
+}
+.about-body {
+  background-image: url("../img/cornervader.jpg");
+  background-size: 100%;
+}
+.myname {
+  color: #ffffff;
+  text-align: right;
+}
+.howtocontact {
+  text-align: right;
+  color: #ffffff;
+  margin: 0 0 0 80%;
+
+}
+.social {
+  text-decoration: none;
+  text-align: right;
+  color: #fff;
+  border: 200px ;
+  left-margin: 40%;
+  right-margin: 40%;
+}
+.page-links a {
+  text-decoration: none;
+  text-align: right;
+  color: #FA0;
+  padding: 5px;
+  margin-left: 90%;
+  font-size: 18px;
+}
+/*     About Page Styling     */
+
+.littleaboutme {
+  text-align: right;
+  color: #ffffff;
+}
+.mepara {
+  text-align: left;
+  margin: 5% 5% 5% 70%;
+}
